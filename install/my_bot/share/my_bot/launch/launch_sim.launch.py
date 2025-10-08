@@ -1,0 +1,1 @@
+/home/amaan/ros2_ws2/my_bot/launch/launch_sim.launch.py

@@ -1,0 +1,63 @@
+[0.032s] Invoking command in '/home/amaan/ros2_ws2/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake /home/amaan/ros2_ws2/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amaan/ros2_ws2/my_bot/install/my_bot
+[0.708s] -- The C compiler identification is GNU 11.4.0
+[2.092s] -- The CXX compiler identification is GNU 11.4.0
+[3.093s] -- Detecting C compiler ABI info
+[3.521s] -- Detecting C compiler ABI info - done
+[3.530s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.530s] -- Detecting C compile features
+[3.531s] -- Detecting C compile features - done
+[3.537s] -- Detecting CXX compiler ABI info
+[3.910s] -- Detecting CXX compiler ABI info - done
+[3.918s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.919s] -- Detecting CXX compile features
+[3.919s] -- Detecting CXX compile features - done
+[3.934s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.126s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.218s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.301s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.432s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.461s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.461s] -- Configured cppcheck include dirs: 
+[4.461s] -- Configured cppcheck exclude dirs and/or files: 
+[4.477s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.477s] -- Configured cpplint exclude dirs and/or files: 
+[4.481s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.487s] -- Added test 'lint_cmake' to check CMake code style
+[4.491s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.509s] -- Added test 'uncrustify' to check C / C++ code style
+[4.509s] -- Configured uncrustify additional arguments: 
+[4.514s] -- Added test 'xmllint' to check XML markup files
+[4.521s] -- Configuring done
+[4.541s] -- Generating done
+[4.550s] -- Build files have been written to: /home/amaan/ros2_ws2/my_bot/build/my_bot
+[4.560s] Invoked command in '/home/amaan/ros2_ws2/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake /home/amaan/ros2_ws2/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amaan/ros2_ws2/my_bot/install/my_bot
+[4.564s] Invoking command in '/home/amaan/ros2_ws2/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --build /home/amaan/ros2_ws2/my_bot/build/my_bot -- -j12 -l12
+[4.619s] Invoked command in '/home/amaan/ros2_ws2/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --build /home/amaan/ros2_ws2/my_bot/build/my_bot -- -j12 -l12
+[4.635s] Invoking command in '/home/amaan/ros2_ws2/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --install /home/amaan/ros2_ws2/my_bot/build/my_bot
+[4.645s] -- Install configuration: ""
+[4.646s] -- Execute custom install script
+[4.649s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/bot.rviz
+[4.663s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[4.677s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[4.691s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[4.704s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[4.716s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[4.730s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[4.744s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[4.758s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[4.774s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[4.789s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[4.803s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[4.816s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[4.831s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[4.844s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[4.858s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[4.871s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[4.884s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[4.896s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[4.910s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/package.dsv
+[4.925s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[4.940s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[4.954s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[4.967s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/package.xml
+[4.984s] Invoked command in '/home/amaan/ros2_ws2/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --install /home/amaan/ros2_ws2/my_bot/build/my_bot
