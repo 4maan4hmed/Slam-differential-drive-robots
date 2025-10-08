@@ -1,0 +1,32 @@
+[0.057s] Invoking command in '/home/amaan/ros2_ws2/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --build /home/amaan/ros2_ws2/my_bot/build/my_bot -- -j12 -l12
+[0.373s] Invoked command in '/home/amaan/ros2_ws2/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --build /home/amaan/ros2_ws2/my_bot/build/my_bot -- -j12 -l12
+[0.393s] Invoking command in '/home/amaan/ros2_ws2/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --install /home/amaan/ros2_ws2/my_bot/build/my_bot
+[0.418s] -- Install configuration: ""
+[0.425s] -- Execute custom install script
+[0.435s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/bot.rviz
+[0.435s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[0.435s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.453s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.454s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.455s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.455s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.455s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.471s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.471s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.471s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[0.471s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.473s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.473s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.473s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.474s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[0.475s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[0.475s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[0.476s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[0.477s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[0.477s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[0.477s] -- Symlinking: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/package.dsv
+[0.498s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.499s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.499s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.500s] -- Up-to-date symlink: /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/package.xml
+[0.505s] Invoked command in '/home/amaan/ros2_ws2/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amaan/robot_ws/install/path_smoothing_controller:/opt/ros/humble /usr/bin/cmake --install /home/amaan/ros2_ws2/my_bot/build/my_bot

@@ -1,9 +1,11 @@
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/bot.rviz
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+/home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+/home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/amaan/ros2_ws2/my_bot/install/my_bot/share/my_bot/worlds/empty.world
