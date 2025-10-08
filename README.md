@@ -1,7 +1,59 @@
-## Robot Package Template
+# my_bot
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+This repository contains the ROS 2 package **my_bot**. It provides the necessary files and instructions to simulate, control, and perform SLAM (Simultaneous Localization and Mapping) with a custom robot using ROS 2.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
+## Features
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+- Robot description (URDF/Xacro)
+- Simulation support (Gazebo)
+- Basic control nodes
+- SLAM implementation
+- Launch files for easy startup
+
+## Installation
+
+Clone the repository into your ROS 2 workspace:
+
+```bash
+cd ~/ros2_ws2/src
+git clone <repository-url>
+cd ~/ros2_ws2
+colcon build
+source install/setup.bash
+```
+
+## Usage
+
+To launch the robot simulation:
+
+```bash
+ros2 launch my_bot my_bot.launch.py
+```
+
+To run SLAM:
+
+```bash
+ros2 launch my_bot slam.launch.py
+```
+
+## Directory Structure
+
+- `urdf/` - Robot description files
+- `launch/` - Launch files
+- `config/` - Configuration files
+- `src/` - Source code for nodes
+
+## Requirements
+
+- ROS 2 (Humble or newer)
+- Gazebo (for simulation)
+- SLAM package (e.g., slam_toolbox or gmapping)
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Amaan
+
