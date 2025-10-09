@@ -20,9 +20,18 @@ def generate_launch_description():
         )]), launch_arguments={'use_sim_time': 'true'}.items()
     )
 
+    # Path to your world file
+    world_file = os.path.join(
+        get_package_share_directory(package_name),
+        'worlds',
+        '/home/amaan/ros2_ws2/my_bot/worlds/my_world'  # Change this to your world file name
+    )
+
+    # Launch Gazebo with your world
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+        launch_arguments={'world': world_file}.items()
     )
 
     # Delay spawn_entity to give Gazebo time to start (5 seconds)
@@ -52,7 +61,7 @@ def generate_launch_description():
         arguments=["joint_broad"]
     )
     
-    # Delay controller spawners to run after entity is spawned (additional 2 seconds)
+    # Delay controller spawners to run after entity is spawned
     delayed_diff_drive_spawner = RegisterEventHandler(
         event_handler=OnProcessExit(
             target_action=spawn_entity,

@@ -22,5 +22,5 @@ diff_cont:
     
     use_stamped_vel: false
 
-joint_brod:
+joint_broad:
   ros__parameters: {}
